@@ -1,0 +1,74 @@
+
+.bg-container{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  height: 100vh;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+//}
+
+
+//background-color: #ffffff; /* Add the desired background color here */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  
+  background-color: #ffffff;
+  //color: #ffffff;
+  height: 100vh;
+}
+
+.img-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.doctor-img {
+  width: 10rem;
+  padding: 10px;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #4d4785;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background-color:  #ffffff;
+}
+p {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  
+  margin-bottom: 10px;
+  text-align:center;
+  margin: 20px;
+  color: #383a3e;
+  background-color:  #ffffff;
+
+}
+
+ //.get-started-btn {
+  //padding: 28px;
+  //background-color: rgb(255, 141, 100);
+  //color: white;
+  //font-weight: 500;
+  //border: 0px;
+  //padding: 20px;
+  //margin: 20px;
+//}
+//ion-button{
+  //padding: 20px;
+ // margin: 20px;
+
+//}

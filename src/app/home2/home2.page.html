@@ -1,0 +1,231 @@
+<ion-content [fullscreen]="true">
+  <div class="bg-container">
+    <h1 class="heading">
+      Choose The Category
+    </h1>
+    <div class="serach-input-container">
+      <input class="search-input" type="search" placeholder="Search for doctor" />
+      <!--<i class="fas fa-search fa-x"
+        style="padding: 12px 30px 12px 30px; background-color: rgb(249, 120, 55); border-radius: 20px; color: white;"></i>-->
+        <ion-icon name="search-outline" style="padding: 12px 30px 12px 30px; background-color: rgb(249, 120, 55); border-radius: 20px; color: white;"></ion-icon>
+    </div>
+    <h1 class="side-heading">
+      Categories
+    </h1>
+
+    <!-- <img src="../assets/brain-pic.jpg"/> -->
+  
+  
+    <div class="categories-container">
+  
+    
+  
+        <div class="card-wrappers">
+          <button class="wrapper-btn" (click)="gotoNextPage()">
+              <div class="category-card card-1">
+                <!-- <button class="wrapper-btn" (click)="gotoNextPage()"> -->
+                <!-- <i class="fa fa-stethoscope" style="font-size:
+                  50px;"></i> -->
+                <img src="../assets/stethoscope-pic.jpg" alt="stethascope image" class="category-images"/>
+                <p class="category-name">General</p>
+                <!-- </button> -->
+              </div>
+        
+          </button>
+        
+        
+          <button class="wrapper-btn" (click)="gotoNextPage()">
+            <div class="category-card card-2">
+              <!-- <i class="fa fa-stethoscope" style="font-size:50px;"></i> -->
+              <img src="../assets/dental-pic.png" alt="dental image" class="category-images" />
+              <p class="category-name">Dental</p>
+            </div>
+          </button>
+        </div>
+  
+      <div class="card-wrappers">
+        <button class="wrapper-btn"  (click)="gotoNextPage()">
+          <div class="category-card card-3">
+            <!--<i class="fa fa-stethoscope" style="font-size:50px;"></i> -->
+            <img src="../assets/eye-pic.png" alt="eye image" class="category-images" />
+            <p class="category-name">Optalmology</p>
+          </div>
+        </button>
+  
+  
+        <button class="wrapper-btn"  (click)="gotoNextPage()">
+          <div class="category-card card-4">
+            <!-- <i class="fa fa-stethoscope" style="font-size:50px;"></i> -->
+            <img src="../assets/heart-pic.png" alt="heart image" class="category-images" />
+            <p class="category-name">Cardiology</p>
+          </div>
+        </button>
+      </div>
+  
+      <div class="card-wrappers">
+        <button class="wrapper-btn"  (click)="gotoNextPage()">
+          <div class="category-card card-5">
+            <!-- <i class="fa fa-stethoscope" style="font-size:50px;"></i> -->
+            <img src="../assets/brain-pic.jpg" alt="brain image" class="category-images" />
+            <p class="category-name">Neurology</p>
+          </div>
+        </button>
+  
+  
+        <button class="wrapper-btn"  (click)="gotoNextPage()">
+          <div class="category-card card-6">
+            <!--  <i class="fa fa-stethoscope" style="font-size:50px;"></i> -->
+            <img src="../assets/lab-pic.webp" alt="lab image" class="category-images" />
+            <p class="category-name">Laboratory</p>
+          </div>
+        </button>
+      </div>
+      
+        <<!--ion-grid>
+          <ion-row>
+            <ion-col size="6"> 
+              <img src="../assets/lab-pic.webp" alt="lab image" class="category-images" />
+              <div class="card-wrappers">
+                <button class="wrapper-btn" (click)="gotoNextPage()">
+                  <div class="category-card card-5">-->
+                    <!-- Add the desired content here -->
+                  <!--</div>
+                </button>
+              </div>
+            </ion-col>
+            <ion-col size="6">
+             <img src="../assets/lab-pic.webp" alt="lab image" class="category-images" />
+              <div class="card-wrappers">
+                <button class="wrapper-btn" (click)="gotoNextPage()">
+                  <div class="category-card card-5">-->
+                    <!-- Add the desired content here -->
+                  <!--</div>
+                </button>
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-grid>-->
+     
+      
+      
+  
+
+  
+  
+    </div>
+    <ion-button size="small"  (click)="goBack()" style="background-color: green; color: white;">Back</ion-button>
+    
+    <!--<ion-button  color="success" (click)="goBack()">Back</ion-button>-->
+  
+  </div>
+</ion-content>
+
+
+
+
+<!-- page2
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index2.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha384-..." crossorigin="anonymous">
+
+
+
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="bg-container">
+    <h1 class="heading">
+      Choose The Category
+    </h1>
+    <div class="serach-input-container">
+      <input class="search-input" type="search" placeholder="Search for doctor" />
+      <i class="fas fa-search fa-x"
+        style="padding: 12px 30px 12px 30px; background-color: rgb(249, 120, 55); border-radius: 20px; color: white;"></i>
+    </div>
+    <h1 class="side-heading">
+      Categories
+    </h1>
+
+
+
+    <div class="categories-container">
+
+
+
+      <div class="card-wrappers">
+        <button class="wrapper-btn" onclick="goToNextPage()">
+          <div class="category-card card-1">
+            <i class="fa fa-stethoscope" style="font-size:50px;"></i>
+            <p class="category-name">General</p>
+          </div>
+
+        </button>
+
+
+        <button class="wrapper-btn" onclick="goToNextPage()">
+          <div class="category-card card-2">
+            <i class="fa fa-stethoscope" style="font-size:50px;"></i>
+            <p class="category-name">Dental</p>
+          </div>
+        </button>
+      </div>
+
+      <div class="card-wrappers">
+        <button class="wrapper-btn" onclick="goToNextPage()">
+          <div class="category-card card-3">
+            <i class="fa fa-stethoscope" style="font-size:50px;"></i>
+            <p class="category-name">Optalmology</p>
+          </div>
+        </button>
+
+
+        <button class="wrapper-btn" onclick="goToNextPage()">
+          <div class="category-card card-4">
+            <i class="fa fa-stethoscope" style="font-size:50px;"></i>
+            <p class="category-name">Cardiology</p>
+          </div>
+        </button>
+      </div>
+
+      <div class="card-wrappers">
+        <button class="wrapper-btn" onclick="goToNextPage()">
+          <div class="category-card card-5">
+            <i class="fa fa-stethoscope" style="font-size:50px;"></i>
+            <p class="category-name">Neurology</p>
+          </div>
+        </button>
+
+
+        <button class="wrapper-btn" onclick="goToNextPage()">
+          <div class="category-card card-6">
+            <i class="fa fa-stethoscope" style="font-size:50px;"></i>
+            <p class="category-name">Laboratory</p>
+          </div>
+        </button>
+      </div>
+
+
+
+
+    </div>
+
+
+  </div>
+
+
+  <script type="text/javasrcipt" src="index2.js">
+
+    </script>
+</body>
+
+</html> -->
